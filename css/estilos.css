@@ -24,18 +24,18 @@ body {
 }
 
 #area-principal {
-  width: 920px;
+  width: 950px;
   margin: 0 auto;
   padding: 15px;
 }
 
 #area-postagens {
-  width: 660px;
+  width: 550px;
   float: left;
 }
 
 #area-lateral {
-  width: 240px;
+  width: 300px;
   float: right;
 }
 
@@ -93,8 +93,9 @@ h2 {
 
 h3 {
   color: #565656;
-  background: #ccc;
+  background: rgb(235, 233, 233);
   padding: 5px;
+  font-size: 25px;
 }
 
 .branco {
@@ -120,5 +121,6 @@ h3 {
 .postagem-lateral {
   font-size: 0.8em;
   padding: 5px;
-  border-bottom: 1px dotted #ccc;
+
 }
+

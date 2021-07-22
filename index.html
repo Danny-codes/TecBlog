@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>TecBlog - O seu Blog de tecnologia</title>
   </head>
 
@@ -32,7 +33,7 @@
         <div class="postagem">
           <h2>Título da postagem 1</h2>
           <span class="data-postagem">postado 20 março 2022</span>
-          <img width="620px" src="images/imagem1.jpg" />
+          <img width="550px" src="images/imagem1.jpg" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -50,7 +51,7 @@
         <div class="postagem">
           <h2>Título da postagem 2</h2>
           <span class="data-postagem">postado 10 março 2022</span>
-          <img width="620px" src="images/imagem2.jpg" />
+          <img width="550px" src="images/imagem2.jpg" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -66,34 +67,34 @@
       </div>
       <div id="area-lateral">
         <div class="conteudo-lateral">
-          <h3>Postagens recentes</h3>
-          <div class="postagem-lateral">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore
-            </p>
-            <a href="">Leia Mais</a>
-          </div>
+          <h3>Cadastre-se e receba as mais variadas noticias de tecnologia por email!!</h3>
+          
+           <form class="postagem-lateral">
+               <div class="form-group" >
+                  <label for="email"> E-Mail</label>
+                  <input type="email" class=form-control placeholder="exemplo@hotmail.com"><br>
+               </div>
 
-          <div class="postagem-lateral">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore
-            </p>
-            <a href="">Leia Mais</a>
+               <div class="form-group">
+                    <label for="nome">Nome </label>
+                    <input type="text" class=form-control placeholder="Digite seu nome"><br>
+               </div>
+
+               <div class="form-group">
+                    <label for="cell">Cell </label>
+                    <input type="text" class=form-control placeholder="Digite seu numero"><br>
+               </div>
+
+               <div class="form-group">
+                <label for="senha">Senha </label>
+                    <input type="password" class=form-control placeholder="Crie Sua senha"><br>
+               </div>
+
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+           </form>
+
           </div>
         </div>
-
-        <div class="conteudo-lateral">
-          <h3>Categorias</h3>
-
-          <a href="">Jogos</a><br />
-          <a href="">Celulares</a><br />
-          <a href="">Informática</a><br />
-          <a href="">Eletrônicos</a><br />
-          <a href="">Jogos</a><br />
-        </div>
-      </div>
 
       <div id="rodape">Todos os direitos reservados</div>
     </div>
